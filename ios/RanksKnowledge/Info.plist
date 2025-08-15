@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>RanksKnowledge</string>
+	<string>Ranks of Admiral Knowledge</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -32,9 +32,13 @@
 		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string/>
+	<string></string>
 	<key>RCTNewArchEnabled</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>EduNSWACTCursive-VariableFont_wght.ttf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -49,9 +53,25 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>UIAppFonts</key>
-	<array>
-		<string>EduNSWACTCursive-VariableFont_wght.ttf</string>
-	</array>
+	<key>NSCameraUsageDescription</key>
+    <string>We need access to your camera to take photos.</string>
+
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photo library to choose pictures.</string>
+
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>We need access to your photo library to save pictures.</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>We need access to your microphone to record audio.</string>
+<key>NSCameraUsageDescription</key>
+<string>We need access to your camera to take photos.</string>
+
+<key>NSPhotoLibraryUsageDescription</key>
+<string>We need access to your photo library to choose pictures.</string>
+
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>We need access to your photo library to save pictures.</string>
+
+
 </dict>
 </plist>
