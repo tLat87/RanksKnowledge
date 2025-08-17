@@ -176,8 +176,8 @@ const styles = StyleSheet.create({
         marginTop: 12,
     },
     portrait: {
-        width: width * 0.76,
-        height: height * 0.48,
+        width: width * 0.56,
+        height: height * 0.28,
         alignSelf: 'center',
     },
     card: {
