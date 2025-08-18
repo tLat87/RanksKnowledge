@@ -107,7 +107,6 @@ export default function SettingsScreen() {
                     >
                         <View style={styles.menuLeft}>
                             <View style={styles.iconBox}>
-                                {/* Replace with a suitable icon or emoji if image is not desired */}
                                 <Text style={styles.iconText}>ℹ️</Text>
                             </View>
                             <Text style={styles.menuText}>About App</Text>
@@ -115,7 +114,6 @@ export default function SettingsScreen() {
                         <Text style={styles.arrowIcon}>&#x203A;</Text>
                     </TouchableOpacity>
 
-                    {/* Share the App */}
                     <TouchableOpacity
                         style={styles.menuItem}
                         onPress={handleShareApp} // <-- тут вызываем функцию
@@ -130,7 +128,6 @@ export default function SettingsScreen() {
                         <Text style={styles.arrowIcon}>&#x203A;</Text>
                     </TouchableOpacity>
 
-                    {/* Terms of Use */}
                     <TouchableOpacity
                         style={styles.menuItem}
                         onPress={() => Linking.openURL('https://www.termsfeed.com/live/cfe0442a-c0d3-46fa-8f4d-75bf1cfc39b9')}
@@ -144,31 +141,6 @@ export default function SettingsScreen() {
                         </View>
                         <Text style={styles.arrowIcon}>&#x203A;</Text>
                     </TouchableOpacity>
-
-                    {/*/!* New Comment/Secret Item Block *!/*/}
-                    {/*<View style={styles.commentBlock}>*/}
-                    {/*    <Text style={styles.commentTitle}>Leave a Comment</Text>*/}
-                    {/*    <Text style={styles.commentText}>*/}
-                    {/*        Share your thoughts and get a special secret item!*/}
-                    {/*    </Text>*/}
-                    {/*    <TouchableOpacity*/}
-                    {/*        style={styles.commentButton}*/}
-                    {/*        onPress={handleLeaveCommentAndGetItem}*/}
-                    {/*        disabled={secretItemReceived}*/}
-                    {/*        activeOpacity={0.9}*/}
-                    {/*    >*/}
-                    {/*        <Text style={styles.commentButtonText}>*/}
-                    {/*            {secretItemReceived ? "ITEM RECEIVED!" : "LEAVE COMMENT & GET ITEM"}*/}
-                    {/*        </Text>*/}
-                    {/*    </TouchableOpacity>*/}
-
-                    {/*    {secretItemReceived && (*/}
-                    {/*        <View style={styles.secretItemDisplay}>*/}
-                    {/*            <Text style={styles.secretItemText}>🌟 Secret Item Unlocked! 🌟</Text>*/}
-                    {/*        </View>*/}
-                    {/*    )}*/}
-                    {/*</View>*/}
-
                 </ScrollView>
             </SafeAreaView>
         </ImageBackground>

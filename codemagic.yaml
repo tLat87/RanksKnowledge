@@ -1,6 +1,6 @@
 workflows:
   sample-workflow:
-    name: RanksKnowledge
+    name: RanksKnowledges
     max_build_duration: 120
     instance_type: mac_mini_m1
     integrations:
