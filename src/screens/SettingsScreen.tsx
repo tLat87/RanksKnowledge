@@ -145,29 +145,29 @@ export default function SettingsScreen() {
                         <Text style={styles.arrowIcon}>&#x203A;</Text>
                     </TouchableOpacity>
 
-                    {/* New Comment/Secret Item Block */}
-                    <View style={styles.commentBlock}>
-                        <Text style={styles.commentTitle}>Leave a Comment</Text>
-                        <Text style={styles.commentText}>
-                            Share your thoughts and get a special secret item!
-                        </Text>
-                        <TouchableOpacity
-                            style={styles.commentButton}
-                            onPress={handleLeaveCommentAndGetItem}
-                            disabled={secretItemReceived}
-                            activeOpacity={0.9}
-                        >
-                            <Text style={styles.commentButtonText}>
-                                {secretItemReceived ? "ITEM RECEIVED!" : "LEAVE COMMENT & GET ITEM"}
-                            </Text>
-                        </TouchableOpacity>
+                    {/*/!* New Comment/Secret Item Block *!/*/}
+                    {/*<View style={styles.commentBlock}>*/}
+                    {/*    <Text style={styles.commentTitle}>Leave a Comment</Text>*/}
+                    {/*    <Text style={styles.commentText}>*/}
+                    {/*        Share your thoughts and get a special secret item!*/}
+                    {/*    </Text>*/}
+                    {/*    <TouchableOpacity*/}
+                    {/*        style={styles.commentButton}*/}
+                    {/*        onPress={handleLeaveCommentAndGetItem}*/}
+                    {/*        disabled={secretItemReceived}*/}
+                    {/*        activeOpacity={0.9}*/}
+                    {/*    >*/}
+                    {/*        <Text style={styles.commentButtonText}>*/}
+                    {/*            {secretItemReceived ? "ITEM RECEIVED!" : "LEAVE COMMENT & GET ITEM"}*/}
+                    {/*        </Text>*/}
+                    {/*    </TouchableOpacity>*/}
 
-                        {secretItemReceived && (
-                            <View style={styles.secretItemDisplay}>
-                                <Text style={styles.secretItemText}>🌟 Secret Item Unlocked! 🌟</Text>
-                            </View>
-                        )}
-                    </View>
+                    {/*    {secretItemReceived && (*/}
+                    {/*        <View style={styles.secretItemDisplay}>*/}
+                    {/*            <Text style={styles.secretItemText}>🌟 Secret Item Unlocked! 🌟</Text>*/}
+                    {/*        </View>*/}
+                    {/*    )}*/}
+                    {/*</View>*/}
 
                 </ScrollView>
             </SafeAreaView>
